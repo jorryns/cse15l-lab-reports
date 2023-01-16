@@ -2,7 +2,7 @@
 
 To Install VSCode, first navigate to the VSCode website, this can be accessed by typing in vscode into google.
 
-![Image](https://github.com/jorryns/cse15l-lab-reports/week1vsc1.png)
+![Image](https://jorryns.github.io/cse15l-lab-reports/week1vsc1.png)
 
 Webpage
 
@@ -26,7 +26,7 @@ Next it will ask you for a password, type in the password you set earlier in thi
 
 You will get a message that says "Now on remote server"
 
-![Image](https://github.com/jorryns/cse15l-lab-reports/week1ssh.png)
+![Image](https://jorryns.github.io/cse15l-lab-reports/week1ssh.png)
 
 # Step 3: Running Commands
 
@@ -42,4 +42,4 @@ You can try next try cat /home/linux/ieng6/cs15lwi23/public/hello.txt in order t
 
 Heres a full list of specific useful commands to try:
 
-![Image](https://github.com/jorryns/cse15l-lab-reports/week1commands.png)
+![Image](https://jorryns.github.io/cse15l-lab-reports/week1commands.png)
