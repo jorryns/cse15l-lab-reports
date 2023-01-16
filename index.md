@@ -6,7 +6,7 @@ To Install VSCode, first navigate to the VSCode website, this can be accessed by
 
 Webpage
 
-Click Download for Windows, or if you’re on mac Download for Mac probably.
+Click Download for Windows, or if you’re on mac Download for Mac.
 Go Through the Installation Process.
 
 
