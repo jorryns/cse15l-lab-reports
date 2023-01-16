@@ -40,6 +40,8 @@ But on the remote computer it should bring you to here:
 
 You can try next try cat /home/linux/ieng6/cs15lwi23/public/hello.txt in order to get this output:
 
+"Hello! Welcome to CSE15L"
+
 Heres a full list of specific useful commands to try:
 
 ![Image](https://jorryns.github.io/cse15l-lab-reports/week1commands.png)
