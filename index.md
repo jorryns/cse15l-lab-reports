@@ -36,7 +36,11 @@ For example cd~
 
 On your computer it should bring you to here:
 
+(Windows) C:\Users\user
+
 But on the remote computer it should bring you to here:
+
+"/home/linux/ieng6/cs15lwi23/cs15lwi2zz"
 
 You can try next try cat /home/linux/ieng6/cs15lwi23/public/hello.txt in order to get this output:
 
