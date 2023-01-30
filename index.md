@@ -4,10 +4,12 @@ To Install VSCode, first navigate to the VSCode website, this can be accessed by
 
 ![Image](https://jorryns.github.io/cse15l-lab-reports/week1vsc1.png)
 
-Webpage
+Webpage: https://code.visualstudio.com/
 
 Click Download for Windows, or if you’re on mac Download for Mac.
 Go Through the Installation Process.
+
+
 
 
 # Step 2: Remotely Connecting
