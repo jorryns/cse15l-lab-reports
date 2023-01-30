@@ -1,13 +1,17 @@
 # Step 1: Installing VSCode
 
-To Install VSCode, first navigate to the VSCode website, this can be accessed by typing in vscode into google.
+To Install VSCode, first navigate to the VSCode website, this can be accessed by typing in vscode into google or follow the link here.
+Webpage: https://code.visualstudio.com/
 
 ![Image](https://jorryns.github.io/cse15l-lab-reports/week1vsc1.png)
 
-Webpage: https://code.visualstudio.com/
+Image of the Webpage.
+
 
 Click Download for Windows, or if you’re on mac Download for Mac.
-Go Through the Installation Process.
+Navigate to the installation folder, and run the installer.
+Follow the installer directions (this should only take a minute).
+It should now be installed under: C:\Users\{Username}\AppData\Local\Programs\Microsoft VS Code
 
 
 
@@ -36,6 +40,8 @@ There are many commands that you can use both on your computer and the remote co
 
 For example cd~ 
 
+cd stands for change directory and it changes the working directory of the terminal. The ~ means home directory so it should bring your working directory of the terminal to the root directory of your computer.
+
 On your computer it should bring you to here:
 
 (Windows) C:\Users\user
@@ -43,6 +49,8 @@ On your computer it should bring you to here:
 But on the remote computer it should bring you to here:
 
 "/home/linux/ieng6/cs15lwi23/cs15lwi2zz"
+
+This is the home directory of the remote computer because it is the root directory of the user you are currently login as.
 
 You can try next try cat /home/linux/ieng6/cs15lwi23/public/hello.txt in order to get this output:
 
