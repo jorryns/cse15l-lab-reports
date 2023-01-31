@@ -44,11 +44,15 @@ cd stands for change directory and it changes the working directory of the termi
 
 On your computer it should bring you to here:
 
+```
 (Windows) C:\Users\user
+```
 
 But on the remote computer it should bring you to here:
 
+```
 "/home/linux/ieng6/cs15lwi23/cs15lwi2zz"
+```
 
 This is the home directory of the remote computer because it is the root directory of the user you are currently login as.
 
