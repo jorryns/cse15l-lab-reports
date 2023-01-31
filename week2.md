@@ -23,4 +23,34 @@ public class test{
 
 ```
 
+![Image](https://jorryns.github.io/cse15l-lab-reports/week2output.jpg)
+**Output**
+Symptom is for the failure inducing input at element 5 the output is 6 when it was expected to be 5. 
+
+Original Code:
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length / 2; i += 1) {
+      int temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length-i-1] = temp;
+    }
+  }
+```
+Fixed Code:
+```
+static void reverseInPlace(int[] arr){
+  for(int i =0; i<arr.length/2; i+=1){
+  int temp = arr[i];
+  arr[i] = arr[arr.length - i - 1];
+  arr[arr.length-i-1] = temp;
+  }
+}
+```
+
+This fixes the issue because the bug was the array would only swap the first half of elements because once it hit the 5th element it would go and copy the wrong element. I fixed this by making a temp value to store the original value that is meant to be copied, switching two values at once, and only traversing half way through the array.
+
+
 ## Part 3
+
+Something from the second lab that I learned that I thought was super useful to know was how to create a run a server. This was especially cool when we ran the server on the remote UCSD computer because it demonstrating the practices needed to host a "local" webserver something that I have been very interesting in learning about. The query method was also cool to learn about, though I can't see any personal practical applications of it yet, however I will be curious to see some widespread applications of them in current webservers.
