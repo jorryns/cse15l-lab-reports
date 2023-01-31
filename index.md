@@ -1,7 +1,7 @@
 # Step 1: Installing VSCode
 
 To Install VSCode, first navigate to the VSCode website, this can be accessed by typing in vscode into google or follow the link here.
-Webpage: https://code.visualstudio.com/
+Webpage: [VSCode}(https://code.visualstudio.com/)
 
 ![Image](https://jorryns.github.io/cse15l-lab-reports/week1vsc1.png)
 
@@ -19,7 +19,7 @@ It should now be installed under: C:\Users\{Username}\AppData\Local\Programs\Mic
 # Step 2: Remotely Connecting
 
 There are a couple parts to this step, first, you need to setup your password for your CSE15L course-specific account, install GIT if you're on windows, to do this follow this tutorial. 
-https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit (course specific account)
+[doc](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit) (course specific account)
 To install GIT, you can find this on google as well. 
 
 Next navigate to a new terminal on Visual Studio Code, if you are on Windows create a new bash terminal, by clicking the + above the terminal window.
