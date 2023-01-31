@@ -46,6 +46,7 @@ On your computer it should bring you to here:
 
 ```
 (Windows) C:\Users\user
+(Mac) User\~
 ```
 
 But on the remote computer it should bring you to here:
