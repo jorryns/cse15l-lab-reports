@@ -1,7 +1,7 @@
 # Step 1: Installing VSCode
 
 To Install VSCode, first navigate to the VSCode website, this can be accessed by typing in vscode into google or follow the link here.
-Webpage: [VSCode}(https://code.visualstudio.com/)
+Webpage: [VSCode](https://code.visualstudio.com/)
 
 ![Image](https://jorryns.github.io/cse15l-lab-reports/week1vsc1.png)
 
