@@ -2,6 +2,50 @@
 
 ## Part 1
 
+Code for String Server
+```
+import java.io.IOException;
+import java.net.URI;
+
+class Handler implements URLHandler {
+    // The one bit of state on the server: a number that will be manipulated by
+    // various requests.
+    String output = "";
+    public String handleRequest(URI url) {
+        if (url.getPath().equals("/")) {
+            return output;
+        } 
+        else {
+            System.out.println("Path: " + url.getPath());
+            if (url.getPath().contains("/add-message")) {
+                String[] parameters = url.getQuery().split("=");
+                output = output + "\n" + parameters[1];
+                return output;
+            }
+            return "404 Not Found!";
+        }
+    }
+}
+
+class StringServer {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(port, new Handler());
+    }
+}
+```
+![Image](https://jorryns.github.io/cse15l-lab-reports/StringServer1.png)
+The methods in my code called are handleRequest and StringServer, handleRequest is called when the url path ends in / and contains /add-message, which takes the string query and adds it to the output string called output. 
+![Image](https://jorryns.github.io/cse15l-lab-reports/StringServer2.png)
+The methods in my code called are the same handleRequest and StringServer, handleRequest is called when the url path ends in / and contains /add-message, which takes the string query and adds it on to the existing output string called output with a new line seperating the previous query string from this one. 
+
+**Note** Not demonstrated is the error catching involved if the string does not contain add-message which returns 404 not foudnd
 ## Part 2
 ```
 import static org.junit.Assert.*;
@@ -22,6 +66,7 @@ public class test{
 }
 
 ```
+
 
 ![Image](https://jorryns.github.io/cse15l-lab-reports/week2output.jpg)
 **Output**
