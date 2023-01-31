@@ -41,8 +41,11 @@ class StringServer {
 }
 ```
 ![Image](https://jorryns.github.io/cse15l-lab-reports/StringServer1.png)
+
 The methods in my code called are handleRequest and StringServer, handleRequest is called when the url path ends in / and contains /add-message, which takes the string query and adds it to the output string called output. 
+
 ![Image](https://jorryns.github.io/cse15l-lab-reports/StringServer2.png)
+
 The methods in my code called are the same handleRequest and StringServer, handleRequest is called when the url path ends in / and contains /add-message, which takes the string query and adds it on to the existing output string called output with a new line seperating the previous query string from this one. 
 
 **Note** Not demonstrated is the error catching involved if the string does not contain add-message which returns 404 not foudnd
