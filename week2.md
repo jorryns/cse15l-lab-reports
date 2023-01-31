@@ -53,4 +53,4 @@ This fixes the issue because the bug was the array would only swap the first hal
 
 ## Part 3
 
-Something from the second lab that I learned that I thought was super useful to know was how to create a run a server. This was especially cool when we ran the server on the remote UCSD computer because it demonstrating the practices needed to host a "local" webserver something that I have been very interesting in learning about. The query method was also cool to learn about, though I can't see any personal practical applications of it yet, however I will be curious to see some widespread applications of them in current webservers.
+Something from the second lab that I learned that I thought was super useful to know was how to create a run a server. This was especially cool when we ran the server on the remote UCSD computer because it was demonstrating the practices needed to host a "local" webserver something that I have been very interesting in learning about. The query method was also cool to learn about, though I can't see any personal practical applications of it yet, however I will be curious to see some widespread applications of them in current webservers.
