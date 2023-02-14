@@ -8,6 +8,8 @@ grep -r "string" /path
 
 The -r argument stands for recursive and recursively reads all files under the directory for "string". The output returns the file with the string. For example:
 
+![Image](https://jorryns.github.io/cse15l-lab-reports/lab3.3.png)
+
 Source:https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/
 
 ```
