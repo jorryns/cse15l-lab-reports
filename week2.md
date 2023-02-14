@@ -42,7 +42,7 @@ class StringServer {
 ```
 ![Image](https://jorryns.github.io/cse15l-lab-reports/StringServer1.png)
 
-The methods in my code called are handleRequest and StringServer, handleRequest is called when the url path ends in / and contains /add-message, which takes the string query and adds it to the output string called output. 
+The methods in my code called are handleRequest and StringServer, handleRequest is called when the url path ends in / and contains /add-message, which takes the string query and adds it to the output string called output. The above screenshot shows the string "Hello" being added the output string. The below screenshot shows "How are you" being added to the existing output string, therefore printing both Hello and How are you on two different lines.
 
 ![Image](https://jorryns.github.io/cse15l-lab-reports/StringServer2.png)
 
@@ -73,15 +73,13 @@ public class test{
 
 ![Image](https://jorryns.github.io/cse15l-lab-reports/week2output.jpg)
 **Output**
-Symptom is for the failure inducing input at element 5 the output is 6 when it was expected to be 5. 
+Symptom is for the failure inducing input at element 5 the output is 6 when it was expected to be 5. The symptom for the non-failure inducing input is that the output may be right however it is because of luck. The element just stayed in place and happened to be correct.
 
 Original Code:
 ```
 static void reverseInPlace(int[] arr) {
-    for(int i = 0; i < arr.length / 2; i += 1) {
-      int temp = arr[i];
+    for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
-      arr[arr.length-i-1] = temp;
     }
   }
 ```
