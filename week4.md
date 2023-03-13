@@ -46,5 +46,9 @@ To run the tests again
 
 ## Step 6
 To push to git
-1. Git Push
+1. Git add ListExamples.java
+2. Git push
+
+![image](https://user-images.githubusercontent.com/122568624/224820775-0292361d-5d7b-4279-b69c-c44cb11d153a.png)
+
 
